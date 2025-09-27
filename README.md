@@ -5,12 +5,14 @@ A modern, feature-rich todo application built with React that gamifies productiv
 ## ✨ Features
 
 ### 🎮 Gamification System
+
 - **Level Progression**: Earn points by completing tasks and advance through 10 unique levels
 - **MMR Rating System**: Dynamic rating system that tracks your task completion performance
 - **Point System**: Earn points based on task priority (High: 15pts, Medium: 10pts, Low: 5pts)
 - **Subtask Rewards**: Additional 2 points per completed subtask
 
 ### 📋 Advanced Task Management
+
 - **Priority Levels**: Color-coded priority system (High/Medium/Low)
 - **Due Dates & Times**: Set specific deadlines with time tracking
 - **Subtasks**: Break down complex tasks into manageable sub-items
@@ -18,6 +20,7 @@ A modern, feature-rich todo application built with React that gamifies productiv
 - **Task Filtering**: View All, Active, Completed, Overdue, or Deleted tasks
 
 ### 🎯 Smart Features
+
 - **Overdue Detection**: Automatic tracking and penalty system for missed deadlines
 - **Task Recovery**: Restore accidentally deleted tasks
 - **Keyboard Shortcuts**: Full keyboard navigation support
@@ -25,6 +28,7 @@ A modern, feature-rich todo application built with React that gamifies productiv
 - **Data Persistence**: Local storage ensures your progress is never lost
 
 ### 🎨 User Experience
+
 - **Smooth Animations**: Framer Motion powered transitions
 - **Dark Theme**: Eye-friendly dark interface
 - **Visual Feedback**: Real-time progress indicators and status updates
@@ -34,23 +38,27 @@ A modern, feature-rich todo application built with React that gamifies productiv
 ## 🚀 Quick Start
 
 ### Prerequisites
+
 - Node.js (v16 or higher)
 - npm or yarn package manager
 
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone <repository-url>
    cd todo
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Start the development server**
+
    ```bash
    npm run dev
    ```
@@ -59,6 +67,7 @@ A modern, feature-rich todo application built with React that gamifies productiv
    Navigate to `http://localhost:5173` to see the application
 
 ### Build for Production
+
 ```bash
 npm run build
 npm run preview
@@ -66,21 +75,21 @@ npm run preview
 
 ## ⌨️ Keyboard Shortcuts
 
-| Key | Action |
-|-----|--------|
-| `N` | Create new task |
-| `G` | Toggle grid/list view |
-| `A` | Show all tasks |
-| `V` | Show active tasks |
-| `C` | Show completed tasks |
-| `O` | Show overdue tasks |
-| `D` | Show deleted tasks |
-| `R` | Toggle rewards panel |
-| `I` | Show help information |
-| `M` | Show MMR details |
-| `X` | Clear completed tasks |
-| `L` | Return to list view |
-| `Esc` | Close modals/forms |
+| Key   | Action                |
+| ----- | --------------------- |
+| `N`   | Create new task       |
+| `G`   | Toggle grid/list view |
+| `A`   | Show all tasks        |
+| `V`   | Show active tasks     |
+| `C`   | Show completed tasks  |
+| `O`   | Show overdue tasks    |
+| `D`   | Show deleted tasks    |
+| `R`   | Toggle rewards panel  |
+| `I`   | Show help information |
+| `M`   | Show MMR details      |
+| `X`   | Clear completed tasks |
+| `L`   | Return to list view   |
+| `Esc` | Close modals/forms    |
 
 ## 🏆 Level System
 
@@ -98,7 +107,9 @@ Progress through 10 distinct levels by completing tasks:
 10. **Mythic** - Ultimate mastery (with MMR system)
 
 ### MMR System (Level 10)
+
 At the highest level, your performance is tracked with an MMR system:
+
 - **Positive MMR**: Maintained through consistent task completion
 - **Negative MMR**: Risk of demotion for poor performance
 - **Overdue Penalties**: -30 MMR for each overdue task
@@ -116,6 +127,7 @@ At the highest level, your performance is tracked with an MMR system:
 ## 📱 Responsive Design
 
 The application adapts to different screen sizes:
+
 - **Compact Mode**: < 640px (mobile)
 - **Default Mode**: 640px - 1024px (tablet)
 - **Expanded Mode**: > 1024px (desktop)
@@ -156,22 +168,11 @@ The application uses several custom hooks for state management:
 ## 📊 Data Persistence
 
 All data is stored locally in your browser:
+
 - **Tasks**: Complete task data with metadata
 - **User Progress**: Points, MMR, and level information
 - **Deleted Tasks**: Recoverable task history
 - **Overdue Tasks**: Tracking for penalty system
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🙏 Acknowledgments
 
